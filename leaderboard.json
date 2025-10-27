@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-27T20:53:53.476Z",
+  "lastUpdated": "2025-10-27T21:10:24.770Z",
   "top10": [
     {
       "code": "895ZTD5I",
@@ -10,10 +10,10 @@
     },
     {
       "code": "SHLPDWCL",
-      "count": 33,
-      "xp": 4050,
+      "count": 43,
+      "xp": 5050,
       "questXP": 750,
-      "referralXP": 3300
+      "referralXP": 4300
     },
     {
       "code": "04S3AISY",
@@ -72,6 +72,6 @@
       "referralXP": 600
     }
   ],
-  "totalUsers": 506,
+  "totalUsers": 542,
   "updateInterval": 60
 }
