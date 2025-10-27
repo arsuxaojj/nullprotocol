@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Null Protocol</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://platform.twitter.com/widgets.js"></script>
+</head>
+<body>
+    <!-- Screen 1: White background with Yin-Yang -->
+    <div class="screen screen-1" id="screen1">
+        <div class="white-screen">
+            <!-- Logo -->
+            <div class="logo-section">
+                <div class="logo-text">NULL PROTOCOL</div>
+            </div>
+            
+            <!-- Main Logo -->
+            <div class="main-logo-container">
+                <div class="pixel-logo" id="mainLogo">
+                    <div class="pixel-block block-1"></div>
+                    <div class="pixel-block block-2"></div>
+                    <div class="pixel-block block-3"></div>
+                    <div class="pixel-block block-4"></div>
+                    <div class="pixel-block block-5"></div>
+                    <div class="pixel-block block-6"></div>
+                    <div class="pixel-block block-7"></div>
+                    <div class="pixel-block block-8"></div>
+                    <div class="pixel-block block-9"></div>
+                </div>
+                <div class="click-text">CLICK TO ENTER</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screen 2: Dark background with form -->
+    <div class="screen screen-2" id="screen2" style="display: none;">
+        <div class="container">
+            <!-- Header with social links -->
+            <header class="header">
+                <div class="social-links">
+                    <a href="https://x.com/nullprotocol_" target="_blank" class="social-link twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                    <div class="social-link discord coming-soon" id="discordBtn2">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                        </svg>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main content -->
+            <main class="main">
+                <!-- Form container -->
+                <div class="form-container" id="formContainer">
+                    <div class="form">
+                        <!-- Code input step -->
+                        <div class="form-step" id="codeStep">
+                            <div class="step-title">Enter Invite Code</div>
+                            <div class="input-group">
+                                <input type="text" id="inviteCode" placeholder="Invite Code" class="input-field">
+                            </div>
+                            <button class="submit-btn" id="codeBtn">Verify Code</button>
+                        </div>
+
+                        <!-- Wallet input step -->
+                        <div class="form-step" id="walletStep" style="display: none;">
+                            <div class="step-title">Enter Wallet Address</div>
+                            <div class="input-group">
+                                <input type="text" id="walletAddress" placeholder="Wallet Address" class="input-field">
+                            </div>
+                            <button class="submit-btn" id="walletBtn">Join Protocol</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Footer with wallet counter -->
+            <footer class="footer">
+                <div class="wallet-counter">
+                    <div class="yin-yang-icons">
+                        <div class="yin-yang"><img src="logo.png" alt="Null Protocol" class="footer-logo"></div>
+                        <div class="yin-yang"><img src="logo.png" alt="Null Protocol" class="footer-logo"></div>
+                        <div class="yin-yang"><img src="logo.png" alt="Null Protocol" class="footer-logo"></div>
+                    </div>
+                    <span class="counter-text">+<span id="walletCount">0</span> wallets have joined</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+        <!-- Screen 3: Referral screen -->
+        <div class="screen screen-3" id="screen3" style="display: none;">
+            <div class="container">
+                <!-- Header with navigation and social links -->
+                <header class="header">
+                    <!-- Navigation -->
+                    <nav class="navigation">
+                        <button class="nav-btn active" id="invitesBtn">INVITES</button>
+                        <button class="nav-btn" id="questsBtn">QUESTS</button>
+                        <button class="nav-btn" id="leaderboardBtn">LEADERBOARD</button>
+                    </nav>
+                    
+                    <div class="social-links">
+                        <a href="https://x.com/nullprotocol_" target="_blank" class="social-link twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <div class="social-link discord coming-soon" id="discordBtn2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </header>
+
+            <!-- Main content -->
+            <main class="main">
+                <!-- Invites Tab Content -->
+                <div class="tab-content" id="invitesContent">
+                    <div class="success-container">
+                        <div class="success-icon">✓</div>
+                        <div class="success-title">Wallet Secured</div>
+                        <div class="success-subtitle">Welcome to Null Protocol</div>
+                    </div>
+                    
+                    <div class="referral-section">
+                        <div class="referral-title">Invite Your Friends</div>
+                        <div class="referral-subtitle">Share your referral link for more XP</div>
+                        <div class="referral-info">
+                            <div class="xp-info">Each referral gets 100 XP</div>
+                            <div class="xp-info">You get 100 XP per referral</div>
+                        </div>
+                        
+                        <div class="referral-link-container">
+                            <input type="text" id="referralLink" class="referral-link-input" readonly>
+                            <button class="copy-btn" id="copyBtn">Copy</button>
+                        </div>
+                        
+                        <div class="referral-stats">
+                            <div class="stat-item">
+                                <div class="stat-number" id="referralCount">0</div>
+                                <div class="stat-label">Referrals</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" id="xpCount">0</div>
+                                <div class="stat-label">XP Earned</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quests Tab Content -->
+                <div class="tab-content" id="questsContent" style="display: none;">
+                    <div class="quests-container">
+                        <div class="quests-title">QUESTS</div>
+                        <div class="quests-subtitle">Complete tasks to earn XP</div>
+                        
+                        <div class="quests-list" id="questsList">
+                            <!-- Quest items will be populated by JavaScript -->
+                        </div>
+                        
+                        <div class="coming-soon-section">
+                            <div class="coming-soon-text">MORE QUESTS COMING SOON</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leaderboard Tab Content -->
+                <div class="tab-content" id="leaderboardContent" style="display: none;">
+                    <div class="leaderboard-container">
+                        <div class="leaderboard-title">LEADERBOARD</div>
+                        <div class="leaderboard-subtitle">Top referrers by invitation count</div>
+                        
+                        <div class="leaderboard-list" id="leaderboardList">
+                            <!-- Leaderboard items will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Footer with wallet counter -->
+            <footer class="footer">
+                <div class="wallet-counter">
+                    <div class="yin-yang-icons">
+                        <div class="yin-yang"><img src="logo.png" alt="Null Protocol" class="footer-logo"></div>
+                        <div class="yin-yang"><img src="logo.png" alt="Null Protocol" class="footer-logo"></div>
+                        <div class="yin-yang"><img src="logo.png" alt="Null Protocol" class="footer-logo"></div>
+                    </div>
+                    <span class="counter-text">+<span id="walletCount2">0</span> wallets have joined</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Welcome Tweet Modal -->
+    <div id="welcomeTweetModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🎉 Welcome to Null Protocol!</h2>
+            </div>
+            <div class="modal-body">
+                <p>Congratulations! You've successfully joined Null Protocol.</p>
+                <p>Share your success on Twitter and earn <strong>200 XP</strong>!</p>
+                <div class="tweet-preview">
+                    <div class="tweet-text">
+                        "I just joined @nullprotocol_! 🚀 Join me and earn rewards! 
+                        <span id="referralLink"></span>"
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="skipTweetBtn" class="btn-secondary">Skip</button>
+                <button id="shareTweetBtn" class="btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                    Share on Twitter
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=85"></script>
+</body>
+</html>
