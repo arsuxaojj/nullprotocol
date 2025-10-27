@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-27T19:30:35.393Z",
+  "lastUpdated": "2025-10-27T19:40:25.209Z",
   "top10": [
     {
       "code": "895ZTD5I",
-      "count": 8,
-      "xp": 5850,
+      "count": 9,
+      "xp": 5950,
       "questXP": 5050,
-      "referralXP": 800
+      "referralXP": 900
     },
     {
       "code": "04S3AISY",
@@ -31,10 +31,10 @@
     },
     {
       "code": "IBDYPD9A",
-      "count": 7,
-      "xp": 1850,
+      "count": 8,
+      "xp": 1950,
       "questXP": 1150,
-      "referralXP": 700
+      "referralXP": 800
     },
     {
       "code": "NATWQQOL",
@@ -45,10 +45,10 @@
     },
     {
       "code": "I8JORMO7",
-      "count": 5,
-      "xp": 1350,
+      "count": 7,
+      "xp": 1550,
       "questXP": 850,
-      "referralXP": 500
+      "referralXP": 700
     },
     {
       "code": "PLJGJUDW",
@@ -72,6 +72,6 @@
       "referralXP": 0
     }
   ],
-  "totalUsers": 223,
+  "totalUsers": 251,
   "updateInterval": 60
 }
