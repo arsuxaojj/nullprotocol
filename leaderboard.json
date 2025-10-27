@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-27T19:49:26.187Z",
+  "lastUpdated": "2025-10-27T19:57:43.571Z",
   "top10": [
     {
       "code": "895ZTD5I",
@@ -30,6 +30,13 @@
       "referralXP": 1500
     },
     {
+      "code": "SHLPDWCL",
+      "count": 16,
+      "xp": 2350,
+      "questXP": 750,
+      "referralXP": 1600
+    },
+    {
       "code": "IBDYPD9A",
       "count": 8,
       "xp": 1950,
@@ -42,13 +49,6 @@
       "xp": 1800,
       "questXP": 1800,
       "referralXP": 0
-    },
-    {
-      "code": "SHLPDWCL",
-      "count": 10,
-      "xp": 1750,
-      "questXP": 750,
-      "referralXP": 1000
     },
     {
       "code": "I8JORMO7",
@@ -65,13 +65,13 @@
       "referralXP": 0
     },
     {
-      "code": "TDHA2Y6W",
-      "count": 0,
-      "xp": 1000,
-      "questXP": 1000,
-      "referralXP": 0
+      "code": "88Z7BBN0",
+      "count": 3,
+      "xp": 1050,
+      "questXP": 750,
+      "referralXP": 300
     }
   ],
-  "totalUsers": 284,
+  "totalUsers": 308,
   "updateInterval": 60
 }
