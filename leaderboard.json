@@ -1,11 +1,60 @@
 {
-  "lastUpdated": "2025-10-27T19:01:26.180Z",
+  "lastUpdated": "2025-10-27T19:20:51.306Z",
   "top10": [
+    {
+      "code": "895ZTD5I",
+      "count": 7,
+      "xp": 2550,
+      "questXP": 1850,
+      "referralXP": 700
+    },
+    {
+      "code": "04S3AISY",
+      "count": 15,
+      "xp": 2250,
+      "questXP": 750,
+      "referralXP": 1500
+    },
+    {
+      "code": "LOWB3J9Y",
+      "count": 13,
+      "xp": 2050,
+      "questXP": 750,
+      "referralXP": 1300
+    },
     {
       "code": "NATWQQOL",
       "count": 0,
       "xp": 1800,
       "questXP": 1800,
+      "referralXP": 0
+    },
+    {
+      "code": "IBDYPD9A",
+      "count": 6,
+      "xp": 1750,
+      "questXP": 1150,
+      "referralXP": 600
+    },
+    {
+      "code": "06I9AWD1",
+      "count": 7,
+      "xp": 1550,
+      "questXP": 850,
+      "referralXP": 700
+    },
+    {
+      "code": "PLJGJUDW",
+      "count": 0,
+      "xp": 1100,
+      "questXP": 1100,
+      "referralXP": 0
+    },
+    {
+      "code": "TDHA2Y6W",
+      "count": 0,
+      "xp": 1000,
+      "questXP": 1000,
       "referralXP": 0
     },
     {
@@ -21,57 +70,8 @@
       "xp": 900,
       "questXP": 800,
       "referralXP": 100
-    },
-    {
-      "code": "PY7PLYOJ",
-      "count": 1,
-      "xp": 800,
-      "questXP": 700,
-      "referralXP": 100
-    },
-    {
-      "code": "X7ARSPN8",
-      "count": 2,
-      "xp": 650,
-      "questXP": 450,
-      "referralXP": 200
-    },
-    {
-      "code": "ISWBZH5D",
-      "count": 1,
-      "xp": 650,
-      "questXP": 550,
-      "referralXP": 100
-    },
-    {
-      "code": "ZWO2RH8A",
-      "count": 0,
-      "xp": 650,
-      "questXP": 650,
-      "referralXP": 0
-    },
-    {
-      "code": "IDAXJMN9",
-      "count": 0,
-      "xp": 650,
-      "questXP": 650,
-      "referralXP": 0
-    },
-    {
-      "code": "R9KZR8VA",
-      "count": 0,
-      "xp": 650,
-      "questXP": 650,
-      "referralXP": 0
-    },
-    {
-      "code": "NWNZRP4R",
-      "count": 0,
-      "xp": 600,
-      "questXP": 600,
-      "referralXP": 0
     }
   ],
-  "totalUsers": 56,
+  "totalUsers": 172,
   "updateInterval": 60
 }
