@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-27T13:59:11.489Z",
+  "lastUpdated": "2025-10-27T15:22:56.845Z",
   "top10": [
     {
       "code": "NATWQQOL",
@@ -20,6 +20,13 @@
       "count": 1,
       "xp": 900,
       "questXP": 800,
+      "referralXP": 100
+    },
+    {
+      "code": "PY7PLYOJ",
+      "count": 1,
+      "xp": 800,
+      "questXP": 700,
       "referralXP": 100
     },
     {
@@ -63,15 +70,8 @@
       "xp": 600,
       "questXP": 600,
       "referralXP": 0
-    },
-    {
-      "code": "0GR8O109",
-      "count": 0,
-      "xp": 600,
-      "questXP": 600,
-      "referralXP": 0
     }
   ],
-  "totalUsers": 48,
+  "totalUsers": 50,
   "updateInterval": 60
 }
