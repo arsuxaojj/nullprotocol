@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2025-10-28T08:20:03.693Z",
+  "lastUpdated": "2025-10-28T08:44:16.669Z",
   "top10": [
+    {
+      "code": "7IO4FMJ4",
+      "count": 0,
+      "xp": 65000,
+      "questXP": 65000,
+      "referralXP": 0
+    },
     {
       "code": "895ZTD5I",
       "count": 12,
@@ -63,15 +70,8 @@
       "xp": 1550,
       "questXP": 850,
       "referralXP": 700
-    },
-    {
-      "code": "88Z7BBN0",
-      "count": 6,
-      "xp": 1350,
-      "questXP": 750,
-      "referralXP": 600
     }
   ],
-  "totalUsers": 1243,
+  "totalUsers": 1278,
   "updateInterval": 60
 }
