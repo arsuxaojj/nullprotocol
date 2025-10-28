@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2025-10-28T08:44:16.669Z",
+  "lastUpdated": "2025-10-28T08:57:39.214Z",
   "top10": [
     {
       "code": "7IO4FMJ4",
       "count": 0,
-      "xp": 65000,
-      "questXP": 65000,
+      "xp": 1e+30,
+      "questXP": 1e+30,
       "referralXP": 0
     },
     {
@@ -72,6 +72,6 @@
       "referralXP": 700
     }
   ],
-  "totalUsers": 1278,
+  "totalUsers": 1296,
   "updateInterval": 60
 }
