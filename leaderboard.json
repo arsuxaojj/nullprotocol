@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-28T11:36:35.804Z",
+  "lastUpdated": "2025-10-28T11:45:07.626Z",
   "top10": [
     {
       "code": "7IO4FMJ4",
@@ -37,6 +37,13 @@
       "referralXP": 2100
     },
     {
+      "code": "ZV9ES10L",
+      "count": 0,
+      "xp": 2450,
+      "questXP": 2450,
+      "referralXP": 0
+    },
+    {
       "code": "06I9AWD1",
       "count": 15,
       "xp": 2350,
@@ -49,13 +56,6 @@
       "xp": 2250,
       "questXP": 1150,
       "referralXP": 1100
-    },
-    {
-      "code": "ZV9ES10L",
-      "count": 0,
-      "xp": 2250,
-      "questXP": 2250,
-      "referralXP": 0
     },
     {
       "code": "BTOI1RGH",
@@ -72,6 +72,6 @@
       "referralXP": 0
     }
   ],
-  "totalUsers": 1477,
+  "totalUsers": 1500,
   "updateInterval": 60
 }
