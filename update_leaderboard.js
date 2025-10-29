@@ -31,6 +31,12 @@ async function updateLeaderboard() {
         }).all();
         
         console.log(`📊 Found ${userRecords.length} users in Airtable`);
+        // Build a fast lookup set of valid user wallets (lowercased)
+        const userWallets = new Set(
+            userRecords
+                .map(r => (r.fields['Wallet Address'] || '').toLowerCase())
+                .filter(Boolean)
+        );
         
         // Get all referrals and count by referrer code (with pagination handling)
         console.log('📥 Fetching referrals...');
@@ -47,16 +53,29 @@ async function updateLeaderboard() {
         
         referralRecords.forEach(record => {
             const referrerCode = record.fields['Referrer Code'];
-            const referredWallet = record.fields['Referred Wallet'];
-            
-            if (referrerCode && referredWallet) {
-                // Count only unique wallets (prevent duplicate counting)
-                const walletKey = `${referrerCode}_${referredWallet.toLowerCase()}`;
-                if (!referredWallets.has(walletKey)) {
-                    referralCounts[referrerCode] = (referralCounts[referrerCode] || 0) + 1;
-                    referredWallets.add(walletKey);
-                }
-            }
+            const referredWallet = (record.fields['Referred Wallet'] || '').toLowerCase();
+            const status = (record.fields['Status'] || '').toString().toLowerCase();
+            const verifiedFieldExists = Object.prototype.hasOwnProperty.call(record.fields, 'Verified');
+            const verified = !!record.fields['Verified'];
+
+            // Basic validation
+            if (!referrerCode || !referredWallet) return;
+
+            // Only completed referrals
+            if (status && status !== 'completed') return;
+
+            // If "Verified" field exists, require it to be true
+            if (verifiedFieldExists && !verified) return;
+
+            // Only count referrals for wallets that actually exist in Users
+            if (!userWallets.has(referredWallet)) return;
+
+            // Count only unique (referrer, wallet) pairs
+            const walletKey = `${referrerCode}_${referredWallet}`;
+            if (referredWallets.has(walletKey)) return;
+
+            referralCounts[referrerCode] = (referralCounts[referrerCode] || 0) + 1;
+            referredWallets.add(walletKey);
         });
         
         console.log(`📊 Calculated referral counts for ${Object.keys(referralCounts).length} codes`);
@@ -67,11 +86,14 @@ async function updateLeaderboard() {
                 const referralCode = record.fields['Referral Code'] || 'N/A';
                 // Use REAL count from Referrals table, not the field (which can be faked)
                 const referralCount = referralCounts[referralCode] || 0;
-                const questXP = parseFloat(record.fields['Quest XP']) || 0;
+                let questXP = parseFloat(record.fields['Quest XP']) || 0;
                 
                 // VALIDATION: Cap referral count at reasonable limit (prevent abuse)
                 const safeReferralCount = Math.min(referralCount, 1000000); // Max 1M referrals
-                const safeQuestXP = Math.min(questXP, 10000000); // Max 10M quest XP
+                
+                // VALIDATION: Cap Quest XP at reasonable limit (prevent abuse)
+                const MAX_REALISTIC_QUEST_XP = 10000; // Max 10000 quest XP
+                const safeQuestXP = Math.min(questXP, MAX_REALISTIC_QUEST_XP); // Max 10000 quest XP
                 
                 const referralXP = safeReferralCount * 100;
                 const totalXP = referralXP + safeQuestXP;
