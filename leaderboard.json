@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-29T21:51:11.224Z",
+  "lastUpdated": "2025-10-29T22:15:07.301Z",
   "top10": [
     {
       "code": "QLE04LDV",
@@ -17,10 +17,10 @@
     },
     {
       "code": "HZ4L9W7E",
-      "count": 1099,
-      "xp": 110750,
+      "count": 1101,
+      "xp": 110950,
       "questXP": 850,
-      "referralXP": 109900
+      "referralXP": 110100
     },
     {
       "code": "BSWO7PJC",
@@ -72,6 +72,6 @@
       "referralXP": 1500
     }
   ],
-  "totalUsers": 14043,
+  "totalUsers": 14055,
   "updateInterval": 60
 }
