@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2025-10-29T19:53:31.942Z",
+  "lastUpdated": "2025-10-29T20:02:00.272Z",
   "top10": [
     {
-      "code": "GROPFSPF",
-      "count": 0,
-      "xp": 10000000,
-      "questXP": 10000000,
-      "referralXP": 0
+      "code": "QLE04LDV",
+      "count": 4973,
+      "xp": 498500,
+      "questXP": 1200,
+      "referralXP": 497300
     },
     {
-      "code": "7HRYIBYF",
-      "count": 0,
-      "xp": 10000000,
-      "questXP": 10000000,
-      "referralXP": 0
+      "code": "NOKJ3GJE",
+      "count": 2332,
+      "xp": 234050,
+      "questXP": 850,
+      "referralXP": 233200
     },
     {
-      "code": "QX5IT5UH",
-      "count": 0,
-      "xp": 10000000,
-      "questXP": 10000000,
-      "referralXP": 0
+      "code": "HZ4L9W7E",
+      "count": 1086,
+      "xp": 109450,
+      "questXP": 850,
+      "referralXP": 108600
     },
     {
-      "code": "TQQZAYKL",
-      "count": 0,
-      "xp": 10000000,
-      "questXP": 10000000,
-      "referralXP": 0
+      "code": "BSWO7PJC",
+      "count": 301,
+      "xp": 30850,
+      "questXP": 750,
+      "referralXP": 30100
     },
     {
-      "code": "VY7603TG",
-      "count": 0,
-      "xp": 10000000,
-      "questXP": 10000000,
-      "referralXP": 0
+      "code": "A2GHTGSM",
+      "count": 165,
+      "xp": 17450,
+      "questXP": 950,
+      "referralXP": 16500
     },
     {
-      "code": "KUC1A5J8",
-      "count": 0,
-      "xp": 10000000,
-      "questXP": 10000000,
-      "referralXP": 0
+      "code": "38J8KEIC",
+      "count": 107,
+      "xp": 10700,
+      "questXP": 0,
+      "referralXP": 10700
     },
     {
-      "code": "86LARIBH",
+      "code": "FI43Y6IP",
       "count": 0,
-      "xp": 10000000,
-      "questXP": 10000000,
+      "xp": 10000,
+      "questXP": 10000,
       "referralXP": 0
     },
     {
       "code": "PT6BMF7P",
       "count": 0,
-      "xp": 1000000,
-      "questXP": 1000000,
+      "xp": 10000,
+      "questXP": 10000,
       "referralXP": 0
     },
     {
       "code": "9R6C23TN",
       "count": 0,
-      "xp": 1000000,
-      "questXP": 1000000,
+      "xp": 10000,
+      "questXP": 10000,
       "referralXP": 0
     },
     {
       "code": "IZFABBP6",
       "count": 0,
-      "xp": 1000000,
-      "questXP": 1000000,
+      "xp": 10000,
+      "questXP": 10000,
       "referralXP": 0
     }
   ],
-  "totalUsers": 13932,
+  "totalUsers": 13934,
   "updateInterval": 60
 }
