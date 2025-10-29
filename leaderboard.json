@@ -1,61 +1,54 @@
 {
-  "lastUpdated": "2025-10-29T18:39:58.481Z",
+  "lastUpdated": "2025-10-29T18:50:14.329Z",
   "top10": [
     {
       "code": "QLE04LDV",
-      "count": 4974,
-      "xp": 498600,
+      "count": 4973,
+      "xp": 498500,
       "questXP": 1200,
-      "referralXP": 497400
+      "referralXP": 497300
     },
     {
       "code": "NOKJ3GJE",
-      "count": 2334,
-      "xp": 234250,
+      "count": 2332,
+      "xp": 234050,
       "questXP": 850,
-      "referralXP": 233400
-    },
-    {
-      "code": "UD7NZ3X2",
-      "count": 1545,
-      "xp": 155350,
-      "questXP": 850,
-      "referralXP": 154500
-    },
-    {
-      "code": "WZN96C0P",
-      "count": 1250,
-      "xp": 125550,
-      "questXP": 550,
-      "referralXP": 125000
+      "referralXP": 233200
     },
     {
       "code": "6RM4KAYI",
-      "count": 1165,
-      "xp": 117350,
+      "count": 1086,
+      "xp": 109450,
       "questXP": 850,
-      "referralXP": 116500
+      "referralXP": 108600
     },
     {
       "code": "HZ4L9W7E",
-      "count": 1068,
-      "xp": 107650,
+      "count": 1073,
+      "xp": 108150,
       "questXP": 850,
-      "referralXP": 106800
-    },
-    {
-      "code": "8OZQO3CI",
-      "count": 805,
-      "xp": 81350,
-      "questXP": 850,
-      "referralXP": 80500
+      "referralXP": 107300
     },
     {
       "code": "R5RRFE8V",
-      "count": 746,
-      "xp": 75350,
+      "count": 1072,
+      "xp": 107950,
       "questXP": 750,
-      "referralXP": 74600
+      "referralXP": 107200
+    },
+    {
+      "code": "UD7NZ3X2",
+      "count": 751,
+      "xp": 75950,
+      "questXP": 850,
+      "referralXP": 75100
+    },
+    {
+      "code": "WZN96C0P",
+      "count": 576,
+      "xp": 58150,
+      "questXP": 550,
+      "referralXP": 57600
     },
     {
       "code": "BSWO7PJC",
@@ -70,8 +63,15 @@
       "xp": 28850,
       "questXP": 850,
       "referralXP": 28000
+    },
+    {
+      "code": "A2GHTGSM",
+      "count": 165,
+      "xp": 17450,
+      "questXP": 950,
+      "referralXP": 16500
     }
   ],
-  "totalUsers": 13817,
+  "totalUsers": 13825,
   "updateInterval": 60
 }
