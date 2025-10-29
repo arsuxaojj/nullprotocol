@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-29T09:55:44.327Z",
+  "lastUpdated": "2025-10-29T10:17:26.737Z",
   "top10": [
     {
       "code": "N/A",
@@ -7,6 +7,34 @@
       "xp": 1e+30,
       "questXP": 1e+30,
       "referralXP": 0
+    },
+    {
+      "code": "CT0G5UMC",
+      "count": 1e+25,
+      "xp": 1.0000000000000002e+27,
+      "questXP": 0,
+      "referralXP": 1.0000000000000002e+27
+    },
+    {
+      "code": "CT0G5UMC",
+      "count": 0,
+      "xp": 6e+21,
+      "questXP": 6e+21,
+      "referralXP": 0
+    },
+    {
+      "code": "CT0G5UMC",
+      "count": 1000000000000,
+      "xp": 100000000000000,
+      "questXP": 0,
+      "referralXP": 100000000000000
+    },
+    {
+      "code": "CT0G5UMC",
+      "count": 1000000000000,
+      "xp": 100000000000000,
+      "questXP": 0,
+      "referralXP": 100000000000000
     },
     {
       "code": "NWZJTYO5",
@@ -37,41 +65,13 @@
       "referralXP": 1000000
     },
     {
-      "code": "CT0G5UMC",
+      "code": "JJZYP1DT",
       "count": 0,
-      "xp": 60000,
-      "questXP": 60000,
-      "referralXP": 0
-    },
-    {
-      "code": "ZKUGOBF2",
-      "count": 0,
-      "xp": 33000,
-      "questXP": 33000,
-      "referralXP": 0
-    },
-    {
-      "code": "895ZTD5I",
-      "count": 12,
-      "xp": 6250,
-      "questXP": 5050,
-      "referralXP": 1200
-    },
-    {
-      "code": "SHLPDWCL",
-      "count": 43,
-      "xp": 5050,
-      "questXP": 750,
-      "referralXP": 4300
-    },
-    {
-      "code": "TN1TLCNT",
-      "count": 0,
-      "xp": 3500,
-      "questXP": 3500,
+      "xp": 432341,
+      "questXP": 432341,
       "referralXP": 0
     }
   ],
-  "totalUsers": 9090,
+  "totalUsers": 9665,
   "updateInterval": 60
 }
