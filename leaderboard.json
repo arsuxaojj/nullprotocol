@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-29T10:17:26.737Z",
+  "lastUpdated": "2025-10-29T10:41:10.367Z",
   "top10": [
     {
       "code": "N/A",
@@ -7,6 +7,13 @@
       "xp": 1e+30,
       "questXP": 1e+30,
       "referralXP": 0
+    },
+    {
+      "code": "CT0G5UMC",
+      "count": 1e+25,
+      "xp": 1.0000060000000001e+27,
+      "questXP": 6e+21,
+      "referralXP": 1.0000000000000002e+27
     },
     {
       "code": "CT0G5UMC",
@@ -63,15 +70,8 @@
       "xp": 1000000,
       "questXP": 0,
       "referralXP": 1000000
-    },
-    {
-      "code": "JJZYP1DT",
-      "count": 0,
-      "xp": 432341,
-      "questXP": 432341,
-      "referralXP": 0
     }
   ],
-  "totalUsers": 9665,
+  "totalUsers": 10283,
   "updateInterval": 60
 }
