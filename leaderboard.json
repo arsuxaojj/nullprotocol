@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-29T22:15:07.301Z",
+  "lastUpdated": "2025-10-29T22:33:50.283Z",
   "top10": [
     {
       "code": "QLE04LDV",
@@ -17,10 +17,10 @@
     },
     {
       "code": "HZ4L9W7E",
-      "count": 1101,
-      "xp": 110950,
+      "count": 1106,
+      "xp": 111450,
       "questXP": 850,
-      "referralXP": 110100
+      "referralXP": 110600
     },
     {
       "code": "BSWO7PJC",
@@ -45,10 +45,10 @@
     },
     {
       "code": "SHLPDWCL",
-      "count": 84,
-      "xp": 9150,
+      "count": 85,
+      "xp": 9250,
       "questXP": 750,
-      "referralXP": 8400
+      "referralXP": 8500
     },
     {
       "code": "878LC75V",
@@ -72,6 +72,6 @@
       "referralXP": 1500
     }
   ],
-  "totalUsers": 14055,
+  "totalUsers": 14067,
   "updateInterval": 60
 }
