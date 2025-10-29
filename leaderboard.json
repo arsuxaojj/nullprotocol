@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-29T09:36:17.596Z",
+  "lastUpdated": "2025-10-29T09:46:53.274Z",
   "top10": [
     {
       "code": "N/A",
@@ -30,18 +30,18 @@
       "referralXP": 10000000
     },
     {
-      "code": "CT0G5UMC",
-      "count": 0,
-      "xp": 6000000,
-      "questXP": 6000000,
-      "referralXP": 0
-    },
-    {
       "code": "LO9CZ850",
       "count": 10000,
       "xp": 1000000,
       "questXP": 0,
       "referralXP": 1000000
+    },
+    {
+      "code": "CT0G5UMC",
+      "count": 0,
+      "xp": 60000,
+      "questXP": 60000,
+      "referralXP": 0
     },
     {
       "code": "ZKUGOBF2",
@@ -72,6 +72,6 @@
       "referralXP": 0
     }
   ],
-  "totalUsers": 8519,
+  "totalUsers": 8835,
   "updateInterval": 60
 }
